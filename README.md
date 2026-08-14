@@ -1,16 +1,50 @@
-# React + Vite
+# 🎻 The Ramayan Sibs — Official Business Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> **Soulful Acoustic Harmonies for Life's Most Unforgettable Moments**  
+> A modern, editorial, and responsive web application built for *The Ramayan Sibs* (Acoustic Singer Duo for Weddings, Corporate, and Special Events).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌟 Tech Stack & Features
 
-## React Compiler
+- **Framework**: [React 19](https://react.dev/) + [Vite](https://vite.dev/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Typography**: Google Fonts (*Cormorant Garamond*, *Cinzel*, *Plus Jakarta Sans*, *Alex Brush*)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## ✨ Features Implemented (Phase 1)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. **Editorial Responsive Navigation (`Navbar.jsx`)**:
+   - Stacked luxury brand typography (`The Ramayan / Sibs | ESTABLISHED 2022`).
+   - Clean tracking navigation links (`Home`, `Services`, `The Sibling Bond`, `Media Showcase`, `Booking Guide`).
+   - Outlined `INQUIRE NOW` Call-To-Action button.
+   - Fully responsive mobile menu drawer.
+
+2. **Luxury Hero Section (`Hero.jsx`)**:
+   - 2-Column responsive grid layout.
+   - Custom SVG circular brand emblem logo & subtitle badge.
+   - Mixed-case serif headline (*"Weaving timeless sibling harmonies into your sacred milestones"*).
+   - Dual Call-to-Action buttons (`RESERVE YOUR DATE` and `LISTEN TO HARMONIES` with interactive play button).
+   - Landscape ratio (`aspect-[16/10]`) acoustic duo feature photo with floating season booking overlay.
+
+---
+
+## 📁 Folder & Architecture Structure
+
+```text
+The Ramayan Sibs/
+├── public/
+│   ├── logo.svg                 # SVG Vector Logo
+│   └── hero-duo.jpg             # Featured Duo Photography
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx           # Sticky Header & Mobile Drawer
+│   │   └── Hero.jsx             # Editorial Hero Section
+│   ├── index.css                # Tailwind Directives & Google Fonts
+│   ├── App.jsx                  # Root Application Component
+│   └── main.jsx                 # Entry Point
+├── vite.config.js               # Tailwind CSS v4 Vite Config
+└── README.md
