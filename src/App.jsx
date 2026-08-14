@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Services from './components/Services';
+import About from './components/About';
 
 export default function App() {
   return (
@@ -11,6 +13,8 @@ export default function App() {
       {/* 2. Hero Section */}
       <main>
         <Hero />
+        <Services />
+        <About />
       </main>
     </div>
   );

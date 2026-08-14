@@ -3,7 +3,7 @@ import {Menu, X } from "lucide-react";
 import { header } from "framer-motion/client";
 
 export default function Navbar() {
-    const [mobileMenuOpen, setmobileMenuOpen] = useState(false);
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     
     return (
         <header className="sticky top-0 z-50 bg bg-[#faf8f5]/90 backdrop-blur-md borde-b border-stone-200/60 transition-all">
