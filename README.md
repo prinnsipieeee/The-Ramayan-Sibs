@@ -30,6 +30,15 @@
    - Dual Call-to-Action buttons (`RESERVE YOUR DATE` and `LISTEN TO HARMONIES` with interactive play button).
    - Landscape ratio (`aspect-[16/10]`) acoustic duo feature photo with floating season booking overlay.
 
+3. **Curated Musical Experiences Section (`Services.jsx`)**:
+   - 2-Column section header with tagline and tailored arrangement description.
+   - 3-Column interactive card grid featuring *Wedding Liturgies*, *Traditional Harana*, and *Corporate Soirées*.
+   - Smooth image zoom hover effects and high-editorial typography.
+
+4. **The Sibling Bond Section (`About.jsx`)**:
+   - 3-Photo editorial collage layout displaying venue decor and duo performances.
+   - Core brand narrative (*"Two voices, one shared heartbeat"*).
+   - Clean metrics counter (*150+ Sacred Unions Celebrated*).
 ---
 
 ## 📁 Folder & Architecture Structure
