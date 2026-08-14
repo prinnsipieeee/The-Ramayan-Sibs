@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%" fill="none">
+  <!-- Upper curved arc -->
+  <path d="M 210 90 A 165 165 0 0 1 400 208" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Lower curved arc -->
+  <path d="M 100 285 A 165 165 0 0 0 290 403" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- "The" Cursive Script -->
+  <text x="250" y="195" font-family="'Alex Brush', 'Great Vibes', 'Playfair Display', cursive, serif" font-size="46" fill="currentColor" text-anchor="middle">The</text>
+  
+  <!-- "RAMAYAN SIBS" Bold Sans Header -->
+  <text x="250" y="272" font-family="'Cinzel', 'Montserrat', 'Inter', sans-serif" font-size="34" font-weight="800" letter-spacing="4" fill="currentColor" text-anchor="middle">RAMAYAN SIBS</text>
+  
+  <!-- "ESTD 2022" Subtitle -->
+  <text x="250" y="312" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="12" font-weight="600" letter-spacing="6" fill="currentColor" text-anchor="middle">ESTD 2022</text>
+</svg>
