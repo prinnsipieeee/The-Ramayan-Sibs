@@ -10,7 +10,7 @@
 - **Framework**: [React 19](https://react.dev/) + [Vite](https://vite.dev/)
 - **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
 - **Icons**: [Lucide React](https://lucide.dev/)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Interactive FX**: [Canvas Confetti](https://www.npmjs.com/package/canvas-confetti)
 - **Typography**: Google Fonts (*Cormorant Garamond*, *Cinzel*, *Plus Jakarta Sans*, *Alex Brush*)
 
 ---
@@ -47,25 +47,40 @@
    - Centered `KIND WORDS` tagline header.
    - 2-Column review cards featuring client feedback, custom quotation icon, italic Garamond text, and venue details.
 
+7. **Pricing & Performance Curation (`BookingGuide.jsx`)**:
+   - 3-Tier package cards (*The Intimate Harana*, *The Sacred Union*, *The Grand Soirée*).
+   - Highlighted warm gold border frame for *The Sacred Union* package with check icons.
+
+8. **Inquire About Your Date (`Contact.jsx`)**:
+   - Location & direct email details panel.
+   - Interactive booking form with date auto-formatting, event selection, and celebratory confetti upon submission.
+
+9. **Architectural Footer (`Footer.jsx`)**:
+   - Deep charcoal theme (`#161514`) with a subtle 36px architectural grid pattern background overlay.
+   - Brand story, navigation links, social links, and smooth Back-to-Top scroll button.
+
 ---
 
-## 📁 Project Architecture & Folder Structure
+## 📁 Final Project Architecture & Folder Structure
 
 ```text
 The Ramayan Sibs/
 ├── public/
 │   ├── logo.svg                 # SVG Vector Brand Logo
-│   └── hero.png                 # Featured Hero Duo Photo
+│   └── hero.png                 # Featured Performance Photo
 ├── src/
 │   ├── components/
 │   │   ├── Navbar.jsx           # Sticky Header & Mobile Menu
-│   │   ├── Hero.jsx             # Editorial Hero Section
+│   │   ├── Hero.jsx             # Editorial Hero Banner
 │   │   ├── Services.jsx         # 3-Card Offerings Grid
 │   │   ├── About.jsx            # 3-Photo Collage & Brand Story
 │   │   ├── Gallery.jsx          # Asymmetrical Performance Gallery
-│   │   └── Testimonials.jsx     # Client Reviews & Testimonials
+│   │   ├── Testimonials.jsx     # Client Reviews & Testimonials
+│   │   ├── BookingGuide.jsx     # 3-Tier Pricing Packages
+│   │   ├── Contact.jsx          # Interactive Booking Form & Confetti
+│   │   └── Footer.jsx           # Grid Texture Footer & Back-to-Top
 │   ├── index.css                # Tailwind Directives & Custom Fonts
-│   ├── App.jsx                  # Root Application Component
+│   ├── App.jsx                  # Root Application Assembly
 │   └── main.jsx                 # Application Entry Point
 ├── vite.config.js               # Tailwind CSS v4 Vite Config
 └── README.md                    # Project Documentation

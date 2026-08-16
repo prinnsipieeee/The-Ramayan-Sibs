@@ -58,7 +58,7 @@ export default function About() {
 
                         {/* PARAGRAPH 1 */}
                         <p className="text-stone-600 text-sm md:text-base leading-relaxed font-light">
-                        The Ramayan Sibs was founded in 2022 out of a lifelong family tradition of singing together in the quiet living rooms of Manila. Our sound relies heavily on the organic warmth of vocal alignment that only siblings can naturally project — where every pitch transition and vibrato breathe as one.
+                        The Ramayan Sibs was founded in 2022 out of a lifelong family tradition of singing together in the quiet living rooms of Antipolo. Our sound relies heavily on the organic warmth of vocal alignment that only siblings can naturally project — where every pitch transition and vibrato breathe as one.
                         </p>
                         {/* PARAGRAPH 2 */}
                         <p className="text-stone-600 text-sm md:text-base leading-relaxed font-light">
@@ -75,7 +75,7 @@ export default function About() {
                                 Sacred Union Celebrated
                             </span>
                             <span className="block text-xs text-stone-500 font-light mt-0.5">
-                                Across Luzon, Visayas, and bespoke destination events.
+                                Across Rizal Municipalities and bespoke destination events.
                             </span>
                         </div>
                     </div>

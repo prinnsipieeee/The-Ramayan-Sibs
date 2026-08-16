@@ -21,7 +21,7 @@ export default function Gallery() {
                     
                     <div className="md:col-span-5 h-75 md:h-85 rounded-sm overflow-hidden bg-stone-200 shadow-sm group">
                         <img 
-                        src="M1.jpg" 
+                        src="M9.jpg" 
                         alt="Orchestrated Moment 1" 
                         className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
                         />
@@ -37,7 +37,7 @@ export default function Gallery() {
 
                     <div className="md:col-span-7 h-75 md:h-85 rounded-sm overlfow-hidden bg-stone-200 shadow-sm group">
                         <img 
-                        src="M7.jpg" 
+                        src="M8.jpg" 
                         alt="Orchestrated Moment 3" 
                         className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
                         />
