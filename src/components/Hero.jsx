@@ -45,7 +45,7 @@ export default function Hero() {
 
                         {/* SUBTITLE DESCRIPTION */}
                         <p className="text-stone-600 text-sm md:text-base leading-relaxed max-w-xl font-light">
-                            Based in the heart of Manila, we craft intimate acoustic scores and traditional Harana serenades designed exclusively for weddings, modern love stories, and high-editorial events.
+                            From the hills of Antipolo, we create intimate acoustic scores and traditional Harana serenades, thoughtfully composed for weddings, modern love stories, and high-editorial celebrations.
                         </p>
 
                         {/* CTA BUTTONS */}
