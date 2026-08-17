@@ -44,7 +44,7 @@ export default function Hero() {
                         </h1>
 
                         {/* SUBTITLE DESCRIPTION */}
-                        <p className="text-stone-600 text-sm md:text-base leading-relaxed max-w-xl font-light">
+                        <p className="font-editorial text-stone-600 text-sm md:text-base leading-relaxed max-w-xl font-light">
                             From the hills of Antipolo, we create intimate acoustic scores and traditional Harana serenades, thoughtfully composed for weddings, modern love stories, and high-editorial celebrations.
                         </p>
 

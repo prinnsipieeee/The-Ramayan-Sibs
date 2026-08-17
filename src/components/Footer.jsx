@@ -112,7 +112,7 @@ export default function Footer() {
               rel="noopener noreferrer" 
               className="hover:text-stone-200 transition-colors"
             >
-              Spotify
+              Facebook
             </a>
 
             {/* BACK TO TOP BUTTON */}
